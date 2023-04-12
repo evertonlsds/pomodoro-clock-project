@@ -1,3 +1,12 @@
+import { Button } from './components/Button';
+
 export function App() {
-  return <div>soy loco por ti america</div>;
+  return (
+    <>
+      <Button variant="primary" />
+      <Button variant="secundary" />
+      <Button variant="danger" />
+      <Button variant="success" />
+    </>
+  );
 }
