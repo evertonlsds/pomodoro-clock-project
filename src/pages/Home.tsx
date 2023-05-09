@@ -1,3 +1,8 @@
 export function Home() {
-  return <h1></h1>
+  return (
+    <div>
+      <h1>teste</h1>
+    </div>
+  )
+
 }
